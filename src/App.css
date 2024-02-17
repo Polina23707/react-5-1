@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  vertical-align: middle;
+  border: 1px solid grey;
+}
+
+.container {
+  background-color: rgba(164, 160, 154, 0.651);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid grey;
+  box-sizing: content-box;
+}
+
+.card-img {
+  box-sizing: border-box;
+  display: block;
+  background-color: grey;
+  height: 150px;
+  width: 200px;
+}
+
+.card-body {
+  box-sizing: border-box;
+  height: 250px;
+  width: 200px;
+  padding: 20px;
+  text-align: start;
+  background-color: white;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: blue;
+  padding: 5px;
+  color: aliceblue;
+}
